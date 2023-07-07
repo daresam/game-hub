@@ -2,7 +2,7 @@
 
 
 
-const getCrobbedIageUrl = (url: string) => {
+const getCroppedImageUrl = (url: string) => {
 // url sample https://media.rawg.io/media/games/456/456dea5e1c7e3cd07060c14e96612001.jpg
 // url sample https://media.rawg.io/media/crop/600/400/games/456/456dea5e1c7e3cd07060c14e96612001.jpg
 
@@ -14,4 +14,4 @@ return url.slice(0, index) + 'crop/600/400/' + url.slice(index)
 
 }
 
-export default getCrobbedIageUrl
+export default getCroppedImageUrl
